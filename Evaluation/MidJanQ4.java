@@ -31,7 +31,7 @@ public class MidJanQ4{
         int amount = input.nextInt();
         System.out.println("Number of Denominations :- ");
         int row = input.nextInt();
-        System.out.print("Enter the Numbers :- ");
+        System.out.println("Enter the Numbers :- ");
         int[] coins = new int[row];
         for(int i=0; i< row; i++)
             coins[i] = input.nextInt();
